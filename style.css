@@ -1,0 +1,108 @@
+* {
+    margin : 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: rgb(227, 190, 142);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#balaga {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+#container {
+    padding : 30px;
+    margin-top : 50px;
+    width : 350px;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 0 1rem rgba(0,0,0,0.5);
+}
+
+h2 {
+    margin-top: 8px;
+}
+
+#name {
+    margin-top : 8px;
+    height : 30px;
+    width : 330px;
+    font-size: 18px;
+}
+
+#number {
+    margin-top : 8px;
+    height : 30px;
+    width : 330px;
+    font-size: 18px;
+}
+
+#amount {
+    margin-top : 8px;
+    height : 30px;
+    width : 330px;
+    font-size: 18px;
+}
+
+#get-recipt {
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding : 10px;
+}
+
+#data {
+    font-size: 18px;
+    font-weight: 600;
+    height : 50px;
+    width : 100px;
+    background-color: rgb(227, 190, 142);
+    border : none;
+    border-radius : 10px;
+}
+
+#data:active {
+    border : 3px solid black;
+}
+
+#recipt {
+    margin-top : 8px;
+    text-align: center;
+    width : 330px;
+    background-color: white;
+    border : 2px solid black;
+    font-size: medium;
+    font-weight: 600;
+    row-gap: 30px;
+}
+
+#recipt_heading {
+    margin-bottom: 20px;
+}
+
+#Thanks {
+    margin-top: 40px;
+}
+
+#clear {
+    margin-top : 20px;
+    margin-bottom: 20px;
+    font-size: 18px;
+    font-weight: 600;
+    height : 50px;
+    width : 100px;
+    background-color: rgb(227, 190, 142);
+    border : none;
+    border-radius : 10px;
+}
+
+#clear:active {
+    border : 3px solid black;
+}
